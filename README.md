@@ -25,6 +25,7 @@
 
 	pip install Django  //安装
 	django-admin startproject 项目名称  //初始化项目
+	cd 项目名称
 	python manage.py startapp 应用名称  // 初始化应用  
 	INSTALLED_APPS = [ '应用名称',	]  //每一个应用都需要在settings文件中注册
 	

@@ -1,4 +1,4 @@
-"""djangoDemo URL Configuration
+"""prozeroServer URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.11/topics/http/urls/
@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from zeroService import views as zeroService
+from serviceOne import views as serviceOne
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', zeroService.index), 
+    url(r'^$', serviceOne.index), 
 ]
